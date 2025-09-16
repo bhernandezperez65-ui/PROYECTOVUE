@@ -2,20 +2,21 @@
   <div>
   <Navbar></Navbar>
   <Componenteinicio></Componenteinicio>
+  <tabla></tabla>
   </div>
 </template>
 
 <script>
 import Componenteinicio from './components/componenteinicio.vue';
 import HelloWorld from './components/HelloWorld.vue'
-import Navbar from './components/Navbar.vue';
+import tabla from './components/tabla.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Componenteinicio,
-    Navbar
+    Tabla
   }
 }
 </script>
