@@ -1,18 +1,21 @@
 <template>
   <div>
   <Componenteinicio></Componenteinicio>
+  <tabla></tabla>
   </div>
 </template>
 
 <script>
 import Componenteinicio from './components/componenteinicio.vue';
 import HelloWorld from './components/HelloWorld.vue'
+import tabla from './components/tabla.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Componenteinicio
+    Componenteinicio,
+    Tabla
   }
 }
 </script>
