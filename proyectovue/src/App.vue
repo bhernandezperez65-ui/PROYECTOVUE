@@ -3,6 +3,7 @@
   <Navbar></Navbar>
   <Componenteinicio></Componenteinicio>
   <tabla></tabla>
+  <list></list>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Componenteinicio from './components/componenteinicio.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import tabla from './components/tabla.vue';
+import list from './components/list.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Componenteinicio,
-    Tabla
+    tabla,
+    list
   }
 }
 </script>
