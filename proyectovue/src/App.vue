@@ -12,6 +12,7 @@ import Componenteinicio from './components/componenteinicio.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import tabla from './components/tabla.vue';
 import list from './components/list.vue';
+import Navbar from './components/Navbar.vue';
 
 export default {
   name: 'App',
@@ -19,7 +20,8 @@ export default {
     HelloWorld,
     Componenteinicio,
     tabla,
-    list
+    list,
+    Navbar
   }
 }
 </script>
