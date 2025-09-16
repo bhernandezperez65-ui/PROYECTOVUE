@@ -4,6 +4,7 @@
   <Componenteinicio></Componenteinicio>
   <tabla></tabla>
   <list></list>
+  <comida></comida>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import tabla from './components/tabla.vue';
 import list from './components/list.vue';
 import Navbar from './components/Navbar.vue';
+import Comida from './components/Comida.vue';
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     Componenteinicio,
     tabla,
     list,
-    Navbar
+    Navbar,
+    Comida
   }
 }
 </script>
