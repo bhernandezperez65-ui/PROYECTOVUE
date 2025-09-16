@@ -1,19 +1,20 @@
 <template>
-  <div id="app">
-    <!-- Menú de navegación -->
-    <Navbar />
-
-    <!-- Aquí se mostrarán las páginas según la ruta -->
-    <router-view />
+  <div>
+  <Navbar></Navbar>
+  <Componenteinicio></Componenteinicio>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import Componenteinicio from './components/componenteinicio.vue';
+import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue';
 
 export default {
   name: 'App',
   components: {
+    HelloWorld,
+    Componenteinicio,
     Navbar
   }
 }
