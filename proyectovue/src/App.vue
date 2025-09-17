@@ -5,6 +5,7 @@
   <tabla></tabla>
   <list></list>
   <comida></comida>
+  <footer></footer>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import tabla from './components/tabla.vue';
 import list from './components/list.vue';
 import Navbar from './components/Navbar.vue';
 import Comida from './components/Comida.vue';
+import footer from './components/footer.vue';
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     tabla,
     list,
     Navbar,
-    Comida
+    Comida,
+    footer
   }
 }
 </script>
